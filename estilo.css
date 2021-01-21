@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color:94F4F7;
+    color:navy;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+li:hover {
+    background-color: cyan;
+}
+#imagem-fundo {
+    background: url("fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color:black;
+    padding-top: 20%;
+    font-size: 50px;
+}
+#subtitulo {
+    color:black ;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-top: darkcyan solid 3px;
+}
+#acao{
+    color: cyan;
+    border: cyan solid 1px;
+    padding: 10px 20px 10px 20px;
+}
+.icone {
+    width: 200px;
+    height: 200px;
+}
+#colors {
+    color:darkcyan;
+}
+#bluble {
+    color:20C8FA;
+}
+section{
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: rgb(224, 252, 252);
+    padding: 20px
+}
+.imgutpc {
+    width: 80%;
+    height: 100px;
+}
+.coluna {
+    float: left;
+    padding:0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.colunaquatro {
+    float: left;
+    text-align: left;
+    padding:0 5%;
+    position: relative;
+    width: 15%;
+}
+.tres {
+    float: left;
+    text-align: center;
+    position: relative;
+    width: 20%;
+    padding: 0 6%;
+}
+.dois {
+    text-align: center;
+    background-color:rgb(224, 252, 252) 100%;
+    padding: 20px;
+    padding:0 20%;
+    position: relative;
+    width: 40%;
+}
+#sobre{
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 36%;
+}
+footer {
+    background-color: rgb(224, 252, 252);
+    padding: 0 36%;
+    float: left;
+    text-align: center;
+}
+@media all and (max-width: 780px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .colunaquatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float:none;
+    }
+    #logodiv {
+        width: 100%;
+        border: 1px solid navy;
+        position:relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 2px navy solid;
+        transform: translate(-50%);
+    }
+}
